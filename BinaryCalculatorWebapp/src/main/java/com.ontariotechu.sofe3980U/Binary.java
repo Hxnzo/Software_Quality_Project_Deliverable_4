@@ -79,4 +79,76 @@ public class Binary
 		return result;
 		
 	}
+
+		//Bitwise OR of two numbers
+		public static Binary OR(Binary num1,Binary num2)
+		{
+			// the index of the first digit of each number
+			int ind1=num1.number.length()-1;
+			int ind2=num2.number.length()-1;
+			//initial variable
+			String num4="";  // the binary value of the sum
+			while(ind1>=0 ||  ind2>=0) // loop until all digits are processed
+			{
+				int value1=0;
+				int value2=0;
+				if(ind1>=0){ // if num1 has a digit to add
+					value1 = (num1.number.charAt(ind1) == '1') ? 1 : 0;
+					ind1--; // update ind1
+				}
+				if(ind2>=0){ // if num2 has a digit to add
+					value2 = (num2.number.charAt(ind2) == '1') ? 1 : 0;
+					ind2--; //update ind2
+				}
+				num4 =((value1 | value2) == 0 ? "0" : "1") + num4; //convert sum to string and append it to num3
+			}
+			Binary result=new Binary(num4);  // create a binary object with the calculated value.
+			return result;
+			
+		}
+	
+		//Bitwise AND of two numbers
+		public static Binary AND(Binary num1,Binary num2)
+		{
+			// the index of the first digit of each number
+			int ind1=num1.number.length()-1;
+			int ind2=num2.number.length()-1;
+			//initial variable
+			String num5="";  // the binary value of the sum
+			while(ind1>=0 ||  ind2>=0) // loop until all digits are processed
+			{
+				int value1=0;
+				int value2=0;
+				if(ind1>=0){ // if num1 has a digit to add
+					value1 = (num1.number.charAt(ind1) == '1') ? 1 : 0;
+					ind1--; // update ind1
+				}
+				if(ind2>=0){ // if num2 has a digit to add
+					value2 = (num2.number.charAt(ind2) == '1') ? 1 : 0;
+					ind2--; //update ind2
+				}
+				num5 =((value1 & value2) == 0 ? "0" : "1") + num5; //convert sum to string and append it to num3
+			}
+			Binary result=new Binary(num5);  // create a binary object with the calculated value.
+			return result;
+			
+		}
+	
+		// Multiply two binary variables.
+		public static Binary multiply(Binary num1, Binary num2)
+		{
+			if (num1.getValue() == "0" || num2.getValue() == "0")
+				return new Binary("0");
+	
+			Binary iterator = new Binary("1");
+			Binary result = num1;
+	
+			while (!iterator.getValue().equals(num2.getValue()))
+			{
+				result = Binary.add(result, num1);
+				iterator = Binary.add(iterator, new Binary("1"));
+			}
+	
+			return result;
+		}
 }	
