@@ -61,7 +61,7 @@ spec:
     stage('Build and push image with Container Builder') {
       steps {
         container('gcloud') {
-	  sh "/builder/google-cloud-sdk/bin/gcloud auth activate-service-account 206127235038-compute@developer.gserviceaccount.com --key-file=./teak-sunup-382719-3a82ef1891e7.json --project=teak-sunup-382719"
+	  sh "/builder/google-cloud-sdk/bin/gcloud auth activate-service-account jenkins-sa@teak-sunup-382719.iam.gserviceaccount.com --key-file=./teak-sunup-382719-3a82ef1891e7.json --project=teak-sunup-382719"
           sh "/builder/google-cloud-sdk/bin/gcloud builds submit -t ${IMAGE_TAG} ./BinaryCalculatorWebapp/"
         }
       }
