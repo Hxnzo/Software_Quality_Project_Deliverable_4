@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "teak-sunup-382719",
+  "private_key_id": "59b0091ad3cb3c3e2512d2e1666751fda123a673",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD1BdAmsKVuI1fy\n7RnTTr56gaNL8ljLEcjO6Hyx92Jr4JB4b+sG/KO49NykdOlsRNwYGtxOggd0WS5/\nMCQc5XPbZJUBpX5DfT8VJcDmZc9Gys7L1p/cpVLOrbfKvoRNy8WsAIrv8M3NosJF\nimSRmxkA6OaKuUcDEYHvDfs3Eiwo4M7zOeDdlWhtT19szBnRvjUabutrCEHqqfxx\nzrgYVlWi1/BmOQpuA+ZwWgp0UTkThHf8b3DrDejm4RLaewQ3E3EcUgf2SGdTj+07\non/AnNHQRmXFgl/mnyQVmLYH8uyn/1yB6lMbeQH3JIMhh0kovhiFTrWh8RjsMKmm\naX+3JMCDAgMBAAECggEALvoHV3OktAIYuZ2Vxvqg8HHscgIr3fsx6eGPDrvkZdRv\nPngOso87gJmJuAomOrjVDdYQiQjLDxaOIJqFQfkIBnc5TlCBbcUUlCRh4IqCfAsk\nLNagXbhgsPmDdF6klRnNc1XDTY94lcVvw89tyrDW0WLV2KD/KWpw4/llQcC9MLTR\nTJi2YkYQ4ebZZHUWgcdCeDM3CVSn8iEG/hy8GgsYVrNs+FQObbOtNlAD0q1oXqB2\naVOaBBmiwGQnmg0NQPODDxtrhLkH44K/GhLJDO6T8Q4e/nuCFwIqxuH8P8dr8HML\nQH6bYcQR5TkB4ZpifyZ0WVaAeIAJiujo8Rf40rIcIQKBgQD+Q+wLYmdt/Jj5xzjq\nwqw5VAs01aDyeKUxlu2emyX3G5xX6DFLiF3lTWzRx0iaLloWsGc+um4Iu1zxXKbM\n32WqNhANaOC/4kUKqpdy5fZyhIpI2OysG3tUmPse0dOnD0QEu0JG7uFn2Y51pHdr\ngPy941GQpErqvhPeChGVYt3pkwKBgQD2sb+qBgo9L7RQGutx6Kt/OBASqcisHGhR\nMtwqKNYaukEVP2ZeJUZEvN5OCMDCq9tT9M93u4/yOIl9Rb8KlKSMG5Eegnkklt6l\nQ8REqhXxckgAD+xsSlmp2tm2ObwtnnUO9/GzyLBiPnOT4jvu0dldaGowuepZ4jCF\nPRiyRD5jUQKBgFmcJH9qodsQb/Vvse6Cx2G47e4j8AIkZMvSTlJciYfKMlKE4YKm\nP7lFjTlti3fTKCrg5rIj0A3BwqLJrXt8q/7N6OBg+vyFSSHWN2PmCfIYJghAc0DA\nurl45N/awUYaSjWErXoETGpmMR/i47d+kRR3HdLlJAYRET1qvQGyA1WDAoGBALXL\nt5rsaI8+oHqH3ApNlFRkVDPsut1a8eUkveqzvVRk/aFS33Vxsp7lME4BVUwgqbjt\nKBbsOeAemfOfenGpqLk3d3IsZGn6ZIkVr4WKcjFELpsdIPWMtRbfGKGZWnuj0k/9\nmDkNJC7CJxpMFi6gpraXQ+o0l+c1MNx/cbutXuyBAoGAMl4Lk8M2rEZnWcxIk2z0\nEvp6RgMFSj/CahAxdwpiQRqeUHDSq/Sg6nZ4o7mIyt4RohROTlitnpSgTNXSYYyx\nKu74PaBqaxyXc0f30qB2VHGG1S7DHQCfjSD3GU5jaPc2+vgVopq1ByPpNiXIyiOQ\nQtHwbfQ/lR9XTM5E5MuKdxo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "jenkins-sa@teak-sunup-382719.iam.gserviceaccount.com",
+  "client_id": "103724865517738572774",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/jenkins-sa%40teak-sunup-382719.iam.gserviceaccount.com"
+}
